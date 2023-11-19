@@ -4,9 +4,9 @@
 #include <NewPing.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "GalaxyJv";
-const char* password = "facil123";
-const char* googleMapsApiKey = "AIzaSyBEp6DFtBPKEUeBYKYPWMnjm9zvneqFfPw";
+const char* ssid = "";
+const char* password = "";
+const char* googleMapsApiKey = "Ingresa apikeygooglemaps";
 const int obstacleThreshold = 30; // Umbral de distancia en centímetros
 static const int RXPin = 4, TXPin = 2;
 static const uint32_t GPSBaud = 9600;
